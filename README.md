@@ -125,3 +125,7 @@ O nome segue `disponibilidade_<alvo>_<inicio>_<fim>`.
 As horas usam duas casas decimais. Em cada host, UP + DOWN é o tempo contabilizado. No grupo, o total é a soma das horas dos hosts monitorados por ICMP.
 
 Quando o host não tem o trigger de indisponibilidade, o programa usa o histórico do item `icmpping` se o período ainda estiver dentro da retenção. Fora dela, usa a tendência horária. A coluna `fonte` indica `evento`, `historico`, `tendencia` ou `sem_item`.
+
+## Código
+
+A organização dos pacotes e o passo a passo para alterar ou criar um comando estão em [docs/estrutura.md](docs/estrutura.md).
